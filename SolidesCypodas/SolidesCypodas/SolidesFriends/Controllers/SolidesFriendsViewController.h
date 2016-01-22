@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <AFURLSessionManager.h>
+#import <AFNetworking/AFHTTPSessionManager.h>
 @interface SolidesFriendsViewController : UIViewController
+<NSURLSessionDelegate, NSURLSessionDownloadDelegate, NSURLSessionDataDelegate, NSURLSessionTaskDelegate>
 
 @end

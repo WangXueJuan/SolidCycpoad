@@ -18,6 +18,8 @@
 		7A2213531C51DDBF0007B8EE /* VOIndicatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A22134D1C51DDBF0007B8EE /* VOIndicatorAnimation.m */; };
 		7A2213541C51DDBF0007B8EE /* VOSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A22134F1C51DDBF0007B8EE /* VOSegment.m */; };
 		7A2213551C51DDBF0007B8EE /* VOSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2213511C51DDBF0007B8EE /* VOSegmentedControl.m */; };
+		7A22135A1C51FA550007B8EE /* FriendsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2213581C51FA550007B8EE /* FriendsTableViewCell.m */; };
+		7A22135B1C51FA550007B8EE /* FriendsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A2213591C51FA550007B8EE /* FriendsTableViewCell.xib */; };
 		7A7F2FCC1C50FA860074B72C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F2FCB1C50FA860074B72C /* main.m */; };
 		7A7F2FCF1C50FA860074B72C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F2FCE1C50FA860074B72C /* AppDelegate.m */; };
 		7A7F2FD11C50FA860074B72C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A7F2FD01C50FA860074B72C /* Assets.xcassets */; };
@@ -33,6 +35,7 @@
 		7A7F30211C50FDC80074B72C /* SmallScrips.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7F30201C50FDC80074B72C /* SmallScrips.storyboard */; };
 		7A7F30231C50FDF20074B72C /* Solides.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7F30221C50FDF20074B72C /* Solides.storyboard */; };
 		7A7F30251C50FE100074B72C /* SolidFriends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7F30241C50FE100074B72C /* SolidFriends.storyboard */; };
+		7AF603A01C523F4700379792 /* FriendsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF6039F1C523F4700379792 /* FriendsModel.m */; };
 		D377FC6BF9C20F573C6E68F3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C34437D706DD5E053BBD78C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +79,9 @@
 		7A2213501C51DDBF0007B8EE /* VOSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOSegmentedControl.h; sourceTree = "<group>"; };
 		7A2213511C51DDBF0007B8EE /* VOSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOSegmentedControl.m; sourceTree = "<group>"; };
 		7A2213561C51DE2E0007B8EE /* PWDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWDefine.h; sourceTree = "<group>"; };
+		7A2213571C51FA550007B8EE /* FriendsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsTableViewCell.h; sourceTree = "<group>"; };
+		7A2213581C51FA550007B8EE /* FriendsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsTableViewCell.m; sourceTree = "<group>"; };
+		7A2213591C51FA550007B8EE /* FriendsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendsTableViewCell.xib; sourceTree = "<group>"; };
 		7A7F2FC71C50FA860074B72C /* SolidesCypodas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolidesCypodas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7F2FCB1C50FA860074B72C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A7F2FCD1C50FA860074B72C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +109,8 @@
 		7A7F30221C50FDF20074B72C /* Solides.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Solides.storyboard; sourceTree = "<group>"; };
 		7A7F30241C50FE100074B72C /* SolidFriends.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SolidFriends.storyboard; sourceTree = "<group>"; };
 		7A7F30291C510BEE0074B72C /* Solids.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Solids.pch; sourceTree = "<group>"; };
+		7AF6039E1C523F4700379792 /* FriendsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsModel.h; sourceTree = "<group>"; };
+		7AF6039F1C523F4700379792 /* FriendsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsModel.m; sourceTree = "<group>"; };
 		A2000A523BE43742F6C3F98C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -184,6 +192,8 @@
 		7A2213371C51CFD60007B8EE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7AF6039E1C523F4700379792 /* FriendsModel.h */,
+				7AF6039F1C523F4700379792 /* FriendsModel.m */,
 			);
 			name = Models;
 			path = Controllers/Models;
@@ -416,6 +426,9 @@
 			isa = PBXGroup;
 			children = (
 				7A7F30241C50FE100074B72C /* SolidFriends.storyboard */,
+				7A2213571C51FA550007B8EE /* FriendsTableViewCell.h */,
+				7A2213581C51FA550007B8EE /* FriendsTableViewCell.m */,
+				7A2213591C51FA550007B8EE /* FriendsTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -571,6 +584,7 @@
 				7A7F2FD41C50FA860074B72C /* LaunchScreen.storyboard in Resources */,
 				7A7F301B1C50FCBE0074B72C /* Discover.storyboard in Resources */,
 				7A22133E1C51D6B70007B8EE /* blueArrow.png in Resources */,
+				7A22135B1C51FA550007B8EE /* FriendsTableViewCell.xib in Resources */,
 				7A7F30211C50FDC80074B72C /* SmallScrips.storyboard in Resources */,
 				7A7F30231C50FDF20074B72C /* Solides.storyboard in Resources */,
 				7A7F301D1C50FD270074B72C /* Mine.storyboard in Resources */,
@@ -654,7 +668,9 @@
 				7A7F2FCF1C50FA860074B72C /* AppDelegate.m in Sources */,
 				7A2213321C51CF720007B8EE /* DiscoverViewController.m in Sources */,
 				7A7F30191C50FB950074B72C /* SolidesFriendsViewController.m in Sources */,
+				7AF603A01C523F4700379792 /* FriendsModel.m in Sources */,
 				7A2213521C51DDBF0007B8EE /* VOContentLayer.m in Sources */,
+				7A22135A1C51FA550007B8EE /* FriendsTableViewCell.m in Sources */,
 				7A7F30131C50FB770074B72C /* SmallScripViewController.m in Sources */,
 				7A2213431C51D72F0007B8EE /* HWTools.m in Sources */,
 				7A7F2FCC1C50FA860074B72C /* main.m in Sources */,
