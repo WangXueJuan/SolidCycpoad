@@ -1,8 +1,8 @@
 //
 //  DiscoverViewController.m
-//  SolidesCypodas
+//  SolidCyclopedia
 //
-//  Created by scjy on 16/1/21.
+//  Created by scjy on 16/1/20.
 //  Copyright © 2016年 王雪娟. All rights reserved.
 //
 
@@ -17,7 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor magentaColor];
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

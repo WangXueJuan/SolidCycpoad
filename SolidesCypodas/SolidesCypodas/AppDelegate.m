@@ -51,7 +51,7 @@
 
     
     //发现
-    UIStoryboard *discoverStory = [UIStoryboard storyboardWithName:@"Solides" bundle:nil];
+    UIStoryboard *discoverStory = [UIStoryboard storyboardWithName:@"Discover" bundle:nil];
     UINavigationController *discoverNav = discoverStory.instantiateInitialViewController;
     discoverNav.tabBarItem.image = [UIImage imageNamed:@"12-eye"];
     //设置tabBar选中图片模式，按照图片原始状态显示
@@ -81,7 +81,7 @@
     mineNav.tabBarItem.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
     
     //添加被管理的视图
-    self.tabBarVC.viewControllers = @[solidFriendNav,discoverNav,mineNav,solidNav,smallScripNav];
+    self.tabBarVC.viewControllers = @[solidNav, solidFriendNav, discoverNav, smallScripNav, mineNav];
     //设置tabBar导航栏的颜色
     self.tabBarVC.tabBar.barTintColor = [UIColor whiteColor];
     

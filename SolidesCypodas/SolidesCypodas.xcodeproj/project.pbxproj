@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A2213321C51CF720007B8EE /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2213311C51CF720007B8EE /* DiscoverViewController.m */; };
+		7A22133E1C51D6B70007B8EE /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A2213391C51D6B70007B8EE /* blueArrow.png */; };
+		7A22133F1C51D6B70007B8EE /* blueArrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A22133A1C51D6B70007B8EE /* blueArrowDown.png */; };
+		7A2213401C51D6B70007B8EE /* PullingRefreshTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A22133D1C51D6B70007B8EE /* PullingRefreshTableView.m */; };
+		7A2213431C51D72F0007B8EE /* HWTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2213421C51D72F0007B8EE /* HWTools.m */; };
 		7A7F2FCC1C50FA860074B72C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F2FCB1C50FA860074B72C /* main.m */; };
 		7A7F2FCF1C50FA860074B72C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F2FCE1C50FA860074B72C /* AppDelegate.m */; };
 		7A7F2FD11C50FA860074B72C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A7F2FD01C50FA860074B72C /* Assets.xcassets */; };
 		7A7F2FD41C50FA860074B72C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7F2FD21C50FA860074B72C /* LaunchScreen.storyboard */; };
 		7A7F2FDF1C50FA860074B72C /* SolidesCypodasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F2FDE1C50FA860074B72C /* SolidesCypodasTests.m */; };
 		7A7F2FEA1C50FA860074B72C /* SolidesCypodasUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F2FE91C50FA860074B72C /* SolidesCypodasUITests.m */; };
-		7A7F300D1C50FB530074B72C /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F300C1C50FB530074B72C /* DiscoverViewController.m */; };
 		7A7F30101C50FB670074B72C /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F300F1C50FB670074B72C /* MineViewController.m */; };
 		7A7F30131C50FB770074B72C /* SmallScripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F30121C50FB770074B72C /* SmallScripViewController.m */; };
 		7A7F30161C50FB850074B72C /* SolidesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F30151C50FB850074B72C /* SolidesViewController.m */; };
@@ -46,6 +50,14 @@
 /* Begin PBXFileReference section */
 		6488C16576ACFC25A6B9EAF1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6C34437D706DD5E053BBD78C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2213301C51CF720007B8EE /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		7A2213311C51CF720007B8EE /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		7A2213391C51D6B70007B8EE /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		7A22133A1C51D6B70007B8EE /* blueArrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrowDown.png; sourceTree = "<group>"; };
+		7A22133C1C51D6B70007B8EE /* PullingRefreshTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullingRefreshTableView.h; sourceTree = "<group>"; };
+		7A22133D1C51D6B70007B8EE /* PullingRefreshTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullingRefreshTableView.m; sourceTree = "<group>"; };
+		7A2213411C51D7240007B8EE /* HWTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HWTools.h; path = PullingRefreshTableView/HWTools.h; sourceTree = "<group>"; };
+		7A2213421C51D72F0007B8EE /* HWTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTools.m; sourceTree = "<group>"; };
 		7A7F2FC71C50FA860074B72C /* SolidesCypodas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolidesCypodas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7F2FCB1C50FA860074B72C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A7F2FCD1C50FA860074B72C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,8 +71,6 @@
 		7A7F2FE51C50FA860074B72C /* SolidesCypodasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolidesCypodasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7F2FE91C50FA860074B72C /* SolidesCypodasUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolidesCypodasUITests.m; sourceTree = "<group>"; };
 		7A7F2FEB1C50FA860074B72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A7F300B1C50FB530074B72C /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiscoverViewController.h; path = ../../DiscoverViewController.h; sourceTree = "<group>"; };
-		7A7F300C1C50FB530074B72C /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiscoverViewController.m; path = ../../DiscoverViewController.m; sourceTree = "<group>"; };
 		7A7F300E1C50FB670074B72C /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		7A7F300F1C50FB670074B72C /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		7A7F30111C50FB770074B72C /* SmallScripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallScripViewController.h; sourceTree = "<group>"; };
@@ -110,6 +120,74 @@
 				6C34437D706DD5E053BBD78C /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A22132F1C51CF720007B8EE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A2213301C51CF720007B8EE /* DiscoverViewController.h */,
+				7A2213311C51CF720007B8EE /* DiscoverViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7A2213331C51CF990007B8EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = Controllers/Models;
+			sourceTree = "<group>";
+		};
+		7A2213341C51CFB30007B8EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = Controllers/Models;
+			sourceTree = "<group>";
+		};
+		7A2213351C51CFC20007B8EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = Controllers/Models;
+			sourceTree = "<group>";
+		};
+		7A2213361C51CFCC0007B8EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = Controllers/Models;
+			sourceTree = "<group>";
+		};
+		7A2213371C51CFD60007B8EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = Controllers/Models;
+			sourceTree = "<group>";
+		};
+		7A2213381C51D6B70007B8EE /* PullingRefreshTableView */ = {
+			isa = PBXGroup;
+			children = (
+				7A2213391C51D6B70007B8EE /* blueArrow.png */,
+				7A22133A1C51D6B70007B8EE /* blueArrowDown.png */,
+				7A22133B1C51D6B70007B8EE /* HorizontaView */,
+				7A22133C1C51D6B70007B8EE /* PullingRefreshTableView.h */,
+				7A22133D1C51D6B70007B8EE /* PullingRefreshTableView.m */,
+			);
+			path = PullingRefreshTableView;
+			sourceTree = "<group>";
+		};
+		7A22133B1C51D6B70007B8EE /* HorizontaView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HorizontaView;
 			sourceTree = "<group>";
 		};
 		7A7F2FBE1C50FA860074B72C = {
@@ -182,27 +260,11 @@
 		7A7F2FF71C50FB3B0074B72C /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				7A7F2FF81C50FB3B0074B72C /* Controllers */,
-				7A7F2FF91C50FB3B0074B72C /* Modells */,
+				7A22132F1C51CF720007B8EE /* Controllers */,
+				7A2213331C51CF990007B8EE /* Models */,
 				7A7F2FFA1C50FB3B0074B72C /* Views */,
 			);
 			path = Discover;
-			sourceTree = "<group>";
-		};
-		7A7F2FF81C50FB3B0074B72C /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				7A7F300B1C50FB530074B72C /* DiscoverViewController.h */,
-				7A7F300C1C50FB530074B72C /* DiscoverViewController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		7A7F2FF91C50FB3B0074B72C /* Modells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Modells;
 			sourceTree = "<group>";
 		};
 		7A7F2FFA1C50FB3B0074B72C /* Views */ = {
@@ -216,8 +278,8 @@
 		7A7F2FFB1C50FB3B0074B72C /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				7A2213361C51CFCC0007B8EE /* Models */,
 				7A7F2FFC1C50FB3B0074B72C /* Controllers */,
-				7A7F2FFD1C50FB3B0074B72C /* Modells */,
 				7A7F2FFE1C50FB3B0074B72C /* Views */,
 			);
 			path = Mine;
@@ -232,13 +294,6 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		7A7F2FFD1C50FB3B0074B72C /* Modells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Modells;
-			sourceTree = "<group>";
-		};
 		7A7F2FFE1C50FB3B0074B72C /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,8 +305,8 @@
 		7A7F2FFF1C50FB3B0074B72C /* SmallScrips */ = {
 			isa = PBXGroup;
 			children = (
+				7A2213351C51CFC20007B8EE /* Models */,
 				7A7F30001C50FB3B0074B72C /* Controllers */,
-				7A7F30011C50FB3B0074B72C /* Modells */,
 				7A7F30021C50FB3B0074B72C /* Views */,
 			);
 			path = SmallScrips;
@@ -266,13 +321,6 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		7A7F30011C50FB3B0074B72C /* Modells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Modells;
-			sourceTree = "<group>";
-		};
 		7A7F30021C50FB3B0074B72C /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,8 +332,8 @@
 		7A7F30031C50FB3B0074B72C /* Solides */ = {
 			isa = PBXGroup;
 			children = (
+				7A2213341C51CFB30007B8EE /* Models */,
 				7A7F30041C50FB3B0074B72C /* Controllers */,
-				7A7F30051C50FB3B0074B72C /* Modells */,
 				7A7F30061C50FB3B0074B72C /* Views */,
 			);
 			path = Solides;
@@ -300,13 +348,6 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		7A7F30051C50FB3B0074B72C /* Modells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Modells;
-			sourceTree = "<group>";
-		};
 		7A7F30061C50FB3B0074B72C /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,8 +359,8 @@
 		7A7F30071C50FB3B0074B72C /* SolidesFriends */ = {
 			isa = PBXGroup;
 			children = (
+				7A2213371C51CFD60007B8EE /* Models */,
 				7A7F30081C50FB3B0074B72C /* Controllers */,
-				7A7F30091C50FB3B0074B72C /* Modells */,
 				7A7F300A1C50FB3B0074B72C /* Views */,
 			);
 			name = SolidesFriends;
@@ -333,13 +374,6 @@
 				7A7F30181C50FB950074B72C /* SolidesFriendsViewController.m */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		7A7F30091C50FB3B0074B72C /* Modells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Modells;
 			sourceTree = "<group>";
 		};
 		7A7F300A1C50FB3B0074B72C /* Views */ = {
@@ -370,6 +404,9 @@
 		7A7F30281C510B3F0074B72C /* HWTools */ = {
 			isa = PBXGroup;
 			children = (
+				7A2213411C51D7240007B8EE /* HWTools.h */,
+				7A2213421C51D72F0007B8EE /* HWTools.m */,
+				7A2213381C51D6B70007B8EE /* PullingRefreshTableView */,
 			);
 			path = HWTools;
 			sourceTree = "<group>";
@@ -495,9 +532,11 @@
 				7A7F2FD11C50FA860074B72C /* Assets.xcassets in Resources */,
 				7A7F2FD41C50FA860074B72C /* LaunchScreen.storyboard in Resources */,
 				7A7F301B1C50FCBE0074B72C /* Discover.storyboard in Resources */,
+				7A22133E1C51D6B70007B8EE /* blueArrow.png in Resources */,
 				7A7F30211C50FDC80074B72C /* SmallScrips.storyboard in Resources */,
 				7A7F30231C50FDF20074B72C /* Solides.storyboard in Resources */,
 				7A7F301D1C50FD270074B72C /* Mine.storyboard in Resources */,
+				7A22133F1C51D6B70007B8EE /* blueArrowDown.png in Resources */,
 				7A7F30251C50FE100074B72C /* SolidFriends.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -572,10 +611,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A7F30161C50FB850074B72C /* SolidesViewController.m in Sources */,
+				7A2213401C51D6B70007B8EE /* PullingRefreshTableView.m in Sources */,
 				7A7F2FCF1C50FA860074B72C /* AppDelegate.m in Sources */,
-				7A7F300D1C50FB530074B72C /* DiscoverViewController.m in Sources */,
+				7A2213321C51CF720007B8EE /* DiscoverViewController.m in Sources */,
 				7A7F30191C50FB950074B72C /* SolidesFriendsViewController.m in Sources */,
 				7A7F30131C50FB770074B72C /* SmallScripViewController.m in Sources */,
+				7A2213431C51D72F0007B8EE /* HWTools.m in Sources */,
 				7A7F2FCC1C50FA860074B72C /* main.m in Sources */,
 				7A7F30101C50FB670074B72C /* MineViewController.m in Sources */,
 			);
