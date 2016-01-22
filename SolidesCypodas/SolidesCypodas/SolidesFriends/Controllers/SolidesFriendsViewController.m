@@ -7,6 +7,8 @@
 //
 
 #import "SolidesFriendsViewController.h"
+#import "VOSegmentedControl.h"
+#import "PullingRefreshTableView.h"
 
 @interface SolidesFriendsViewController ()
 
@@ -18,6 +20,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor redColor];
+    
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

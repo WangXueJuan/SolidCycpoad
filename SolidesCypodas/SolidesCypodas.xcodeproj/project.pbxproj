@@ -12,6 +12,12 @@
 		7A22133F1C51D6B70007B8EE /* blueArrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A22133A1C51D6B70007B8EE /* blueArrowDown.png */; };
 		7A2213401C51D6B70007B8EE /* PullingRefreshTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A22133D1C51D6B70007B8EE /* PullingRefreshTableView.m */; };
 		7A2213431C51D72F0007B8EE /* HWTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2213421C51D72F0007B8EE /* HWTools.m */; };
+		7A2213471C51DB0C0007B8EE /* SolidesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2213451C51DB0C0007B8EE /* SolidesTableViewCell.m */; };
+		7A2213481C51DB0C0007B8EE /* SolidesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A2213461C51DB0C0007B8EE /* SolidesTableViewCell.xib */; };
+		7A2213521C51DDBF0007B8EE /* VOContentLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A22134B1C51DDBF0007B8EE /* VOContentLayer.m */; };
+		7A2213531C51DDBF0007B8EE /* VOIndicatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A22134D1C51DDBF0007B8EE /* VOIndicatorAnimation.m */; };
+		7A2213541C51DDBF0007B8EE /* VOSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A22134F1C51DDBF0007B8EE /* VOSegment.m */; };
+		7A2213551C51DDBF0007B8EE /* VOSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2213511C51DDBF0007B8EE /* VOSegmentedControl.m */; };
 		7A7F2FCC1C50FA860074B72C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F2FCB1C50FA860074B72C /* main.m */; };
 		7A7F2FCF1C50FA860074B72C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F2FCE1C50FA860074B72C /* AppDelegate.m */; };
 		7A7F2FD11C50FA860074B72C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A7F2FD01C50FA860074B72C /* Assets.xcassets */; };
@@ -58,6 +64,18 @@
 		7A22133D1C51D6B70007B8EE /* PullingRefreshTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullingRefreshTableView.m; sourceTree = "<group>"; };
 		7A2213411C51D7240007B8EE /* HWTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HWTools.h; path = PullingRefreshTableView/HWTools.h; sourceTree = "<group>"; };
 		7A2213421C51D72F0007B8EE /* HWTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTools.m; sourceTree = "<group>"; };
+		7A2213441C51DB0C0007B8EE /* SolidesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolidesTableViewCell.h; sourceTree = "<group>"; };
+		7A2213451C51DB0C0007B8EE /* SolidesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolidesTableViewCell.m; sourceTree = "<group>"; };
+		7A2213461C51DB0C0007B8EE /* SolidesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SolidesTableViewCell.xib; sourceTree = "<group>"; };
+		7A22134A1C51DDBF0007B8EE /* VOContentLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOContentLayer.h; sourceTree = "<group>"; };
+		7A22134B1C51DDBF0007B8EE /* VOContentLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOContentLayer.m; sourceTree = "<group>"; };
+		7A22134C1C51DDBF0007B8EE /* VOIndicatorAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOIndicatorAnimation.h; sourceTree = "<group>"; };
+		7A22134D1C51DDBF0007B8EE /* VOIndicatorAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOIndicatorAnimation.m; sourceTree = "<group>"; };
+		7A22134E1C51DDBF0007B8EE /* VOSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOSegment.h; sourceTree = "<group>"; };
+		7A22134F1C51DDBF0007B8EE /* VOSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOSegment.m; sourceTree = "<group>"; };
+		7A2213501C51DDBF0007B8EE /* VOSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOSegmentedControl.h; sourceTree = "<group>"; };
+		7A2213511C51DDBF0007B8EE /* VOSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOSegmentedControl.m; sourceTree = "<group>"; };
+		7A2213561C51DE2E0007B8EE /* PWDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWDefine.h; sourceTree = "<group>"; };
 		7A7F2FC71C50FA860074B72C /* SolidesCypodas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolidesCypodas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7F2FCB1C50FA860074B72C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A7F2FCD1C50FA860074B72C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -188,6 +206,21 @@
 			children = (
 			);
 			path = HorizontaView;
+			sourceTree = "<group>";
+		};
+		7A2213491C51DDBF0007B8EE /* VOSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				7A22134A1C51DDBF0007B8EE /* VOContentLayer.h */,
+				7A22134B1C51DDBF0007B8EE /* VOContentLayer.m */,
+				7A22134C1C51DDBF0007B8EE /* VOIndicatorAnimation.h */,
+				7A22134D1C51DDBF0007B8EE /* VOIndicatorAnimation.m */,
+				7A22134E1C51DDBF0007B8EE /* VOSegment.h */,
+				7A22134F1C51DDBF0007B8EE /* VOSegment.m */,
+				7A2213501C51DDBF0007B8EE /* VOSegmentedControl.h */,
+				7A2213511C51DDBF0007B8EE /* VOSegmentedControl.m */,
+			);
+			path = VOSegmentedControl;
 			sourceTree = "<group>";
 		};
 		7A7F2FBE1C50FA860074B72C = {
@@ -352,6 +385,9 @@
 			isa = PBXGroup;
 			children = (
 				7A7F30221C50FDF20074B72C /* Solides.storyboard */,
+				7A2213441C51DB0C0007B8EE /* SolidesTableViewCell.h */,
+				7A2213451C51DB0C0007B8EE /* SolidesTableViewCell.m */,
+				7A2213461C51DB0C0007B8EE /* SolidesTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -404,8 +440,10 @@
 		7A7F30281C510B3F0074B72C /* HWTools */ = {
 			isa = PBXGroup;
 			children = (
+				7A2213561C51DE2E0007B8EE /* PWDefine.h */,
 				7A2213411C51D7240007B8EE /* HWTools.h */,
 				7A2213421C51D72F0007B8EE /* HWTools.m */,
+				7A2213491C51DDBF0007B8EE /* VOSegmentedControl */,
 				7A2213381C51D6B70007B8EE /* PullingRefreshTableView */,
 			);
 			path = HWTools;
@@ -536,6 +574,7 @@
 				7A7F30211C50FDC80074B72C /* SmallScrips.storyboard in Resources */,
 				7A7F30231C50FDF20074B72C /* Solides.storyboard in Resources */,
 				7A7F301D1C50FD270074B72C /* Mine.storyboard in Resources */,
+				7A2213481C51DB0C0007B8EE /* SolidesTableViewCell.xib in Resources */,
 				7A22133F1C51D6B70007B8EE /* blueArrowDown.png in Resources */,
 				7A7F30251C50FE100074B72C /* SolidFriends.storyboard in Resources */,
 			);
@@ -615,10 +654,15 @@
 				7A7F2FCF1C50FA860074B72C /* AppDelegate.m in Sources */,
 				7A2213321C51CF720007B8EE /* DiscoverViewController.m in Sources */,
 				7A7F30191C50FB950074B72C /* SolidesFriendsViewController.m in Sources */,
+				7A2213521C51DDBF0007B8EE /* VOContentLayer.m in Sources */,
 				7A7F30131C50FB770074B72C /* SmallScripViewController.m in Sources */,
 				7A2213431C51D72F0007B8EE /* HWTools.m in Sources */,
 				7A7F2FCC1C50FA860074B72C /* main.m in Sources */,
 				7A7F30101C50FB670074B72C /* MineViewController.m in Sources */,
+				7A2213471C51DB0C0007B8EE /* SolidesTableViewCell.m in Sources */,
+				7A2213531C51DDBF0007B8EE /* VOIndicatorAnimation.m in Sources */,
+				7A2213541C51DDBF0007B8EE /* VOSegment.m in Sources */,
+				7A2213551C51DDBF0007B8EE /* VOSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
