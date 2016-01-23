@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "SolidesModel.h"
 @interface SolidesTableViewCell : UITableViewCell
+@property (nonatomic, strong) SolidesModel *solidesModel;
+
+
+
+
 
 @end
