@@ -247,6 +247,11 @@
 @synthesize footerOnly = _footerOnly;
 
 
+- (void)dealloc {
+    [self removeObserver:self forKeyPath:@"contentSize"];
+    
+}
+
 
 - (id)initWithFrame:(CGRect)frame style:(UITableViewStyle)style
 {

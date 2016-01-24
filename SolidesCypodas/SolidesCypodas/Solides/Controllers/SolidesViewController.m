@@ -119,7 +119,7 @@
 //懒加载
 -(PullingRefreshTableView *)tableView{
     if (_tableView == nil) {
-        self.tableView = [[PullingRefreshTableView alloc] initWithFrame:CGRectMake(0, 0, kWidth, kHeight - 50) pullingDelegate:self];
+        self.tableView = [[PullingRefreshTableView alloc] initWithFrame:CGRectMake(0, 50, kWidth, kHeight - 50) pullingDelegate:self];
         self.tableView.delegate = self;
         self.tableView.dataSource  =self;
         self.tableView.rowHeight = 180;

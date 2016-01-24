@@ -15,7 +15,7 @@
 //糗事专享
 #define kSolidesSpecial @"http://m2.qiushibaike.com/article/list/suggest?page=1&type=refresh&count=30&readarticles=[114792566,114790023,114798179,114792673,114792126,114793973,114794443,114797300,114797368,114791388,114795923,114794278,114791403]&rqcnt=8&r=d52459371453538620974"
 
-#define kSolidesFriends #"http://circle.qiushibaike.com/article/nearby/list?page=1&longitude=114.9808&latitude=35.38745&AdID=14534408649264FC9D789A"
+#define kSolidesFriends @"http://circle.qiushibaike.com/article/nearby/list?longitude=114.9808&latitude=35.38745&AdID=14534408649264FC9D789A"
 
 
 
